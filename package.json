@@ -5,5 +5,11 @@
   "description": "Web scraper built with Cloudflare Workers utilizing HTMLRewriter.",
   "main": "index.js",
   "author": "Adam Schwartz <adam.flynn.schwartz@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wrangler dev index.js",
+    "preview": "wrangler preview index.js",
+    "publish": "wrangler publish index.js"
+  } 
 }
